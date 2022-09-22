@@ -1215,8 +1215,8 @@ class Env:
         self._path = path
         self._bin_dir = self._path / bin_dir
 
-        self._executable = "python"
-        self._pip_executable = "pip"
+        self._executable = "python3"
+        self._pip_executable = "pip3"
 
         self.find_executables()
 
