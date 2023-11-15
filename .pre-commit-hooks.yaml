@@ -37,5 +37,6 @@
   description: run poetry update to update dependencies
   entry: poetry update
   language: python
+  args: ["--lock"]
   pass_filenames: false
   always_run: true
