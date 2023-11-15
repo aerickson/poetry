@@ -38,5 +38,4 @@
   entry: poetry update
   language: python
   pass_filenames: false
-  stages: [post-checkout, post-merge]
   always_run: true
