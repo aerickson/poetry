@@ -31,3 +31,12 @@
   pass_filenames: false
   stages: [post-checkout, post-merge]
   always_run: true
+
+- id: poetry-update
+  name: poetry-update
+  description: run poetry update to update dependencies
+  entry: poetry update
+  language: python
+  pass_filename: false
+  stages: [post-checkout, post-merge]
+  always_run: true
